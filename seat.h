@@ -1,4 +1,5 @@
 #include <iostream>
+#include <fstream>
 
 using namespace std;
 const int size = 30;
@@ -15,6 +16,9 @@ protected:
 	// Roll No. variables
 	int t_branches, start_roll[size], end_roll[size];
 	string branch[size];
+
+	// File object
+	fstream  file;
 
 public:
 
