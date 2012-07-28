@@ -37,7 +37,7 @@ public:
 	void set_rollno();
 	void set_room();
 	void seat_plan();
-	void output(int r, int c);
+	void output();
 
 };
 

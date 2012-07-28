@@ -67,7 +67,7 @@ void seat_planner :: seat_plan()
 
 }
 
-void seat_planner :: output(int r, int c)
+void seat_planner :: output()
 {
 
 }
