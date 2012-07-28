@@ -110,9 +110,7 @@ void seat_planner :: seat_plan()
 					seat[x][y] = start_roll2;
 					start_roll2++;
 				}
-				//cout<<seat[x][y]<<"\t";
 			}
-			//cout<<"\n";
 		}
 		output(row,col);
 	}
