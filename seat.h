@@ -27,16 +27,17 @@ class seat_planner : public details
 {
 protected:
 
-	int seat[max][max], start_roll1, start_roll2, end_roll1, end_roll2, x, y, col, row;
+	int seat[size][size], start, end, start_roll1, start_roll2, end_roll1, end_roll2, x, y, col, row;
 	static int nxt_roll, nxt_room;  
 	string room;
 	
 public:
 	
 	void get_details();
-	void set_rollno();
+	void set_branch();
 	void set_room();
 	void seat_plan();
+	void set_rollno();
 	void output(int r, int c);
 
 };
