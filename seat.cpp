@@ -118,15 +118,15 @@ void seat_planner :: seat_plan()
 
 void seat_planner :: output(int r, int c)
 {
-	file.open("output.txt", ios::out | ios::app);
-	file<<"\n\n\t\t Room No: "<<room<<"\n\n";
+	file.open("seat.out", ios::out | ios::app);
+	cout<<"\n\n\t\t Room No: "<<room<<"\n\n";
 	for(x=0; x<r; x++)
 		{
 			for(y=0; y<c; y++)
 			{
-				file<<seat[y][x]<<"\t";
+				cout<<seat[y][x]<<"\t";
 			}
-			file<<"\n";
+			cout<<"\n";
 		}
 }
 
